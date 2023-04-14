@@ -1,26 +1,32 @@
 body {
     height: 100%;
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 10;
     box-sizing: border-box;
+    background-color: orangered;
   }
   .nav-div {
-    border-bottom: 2px solid;
-    background-color: rgb(232, 238, 248);
+    border-bottom: 2px groove;
+    background-color: #000000bd;
     width: 100%;
-    padding: 8px;
+    padding: 10px;
     max-height: 350px;
   }
   h1 {
     text-align: center;
-    color: rgb(52, 55, 59);
-    font-size: 38px;
-    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(6, 10, 0, 0.767);
+    font-size: 40px;
+    font-family: Arial, Helvetica, monospace;
     text-decoration: underline;
   }
   .div-links {
-    display: flex;
+    display: flexbox;
     flex-direction: column;
-    align-items: center;
+    align-items: justify;
     gap: 4px;
+  }
+
+  #introduction {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-display: futura; 
   }
